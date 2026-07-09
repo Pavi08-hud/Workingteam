@@ -33,19 +33,25 @@ public class Loginpage {
 	}
 	
 	public void clicksubmit() {
-		driver.findElement(submit).click();
-     }
-	
+	    WebElement submitBtn = driver.findElement(submit);
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].scrollIntoView({block: 'center'});", submitBtn);
+	    js.executeScript("arguments[0].click();", submitBtn);
+	}
+
 	public void resetbutton() {
-		driver.findElement(reset).click();
-     }
-	
-	  public String text() {
-	        WebElement element = driver.findElement(getvalues);
-	        JavascriptExecutor js = (JavascriptExecutor) driver;
-	        js.executeScript("arguments[0].scrollIntoView(false);", element);
-	        return element.getText();
-	    }
+	    WebElement resetBtn = driver.findElement(reset);
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].scrollIntoView({block: 'center'});", resetBtn);
+	    js.executeScript("arguments[0].click();", resetBtn);
+	}
+
+	public String text() {
+	    WebElement element = driver.findElement(getvalues);
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("arguments[0].scrollIntoView(false);", element);
+	    return element.getText();
+	}
 	
 	
 }

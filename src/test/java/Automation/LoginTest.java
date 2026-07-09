@@ -36,7 +36,7 @@ public class LoginTest {
 	        Loginpageobj.clicksubmit();
 	        Thread.sleep(5000);
 	        String actual = Loginpageobj.text();
-	        System.out.println("Submit Message: " + actual);
+	       System.out.println("Submit Message: " + actual);
 	        Thread.sleep(2000);
 	    }
 

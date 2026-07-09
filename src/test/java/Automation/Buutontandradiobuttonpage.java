@@ -79,9 +79,7 @@ public class Buutontandradiobuttonpage {
 	    btn.click();
 	}
 
-	public boolean isEnablesButtonEnabled() {
-	    return driver.findElement(enablesBtn).isEnabled();
-	}
+	
 	
 	
 	
