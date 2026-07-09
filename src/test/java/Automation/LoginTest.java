@@ -19,8 +19,8 @@ public class LoginTest {
 	    @BeforeTest
 	    public void launchbrowser() throws InterruptedException {
 	        driver = new ChromeDriver();
-	        driver.get("https://www.sreenidhirajakrishnan.com/practice");
 	        driver.manage().window().maximize();
+	        driver.get("https://www.sreenidhirajakrishnan.com/practice");
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	        Loginpageobj = new Loginpage(driver);
 	        Thread.sleep(5000);

@@ -21,8 +21,8 @@ public class BuutontandradiobuttonTest {
 	    @BeforeTest
 	    public void launchbrowser() throws InterruptedException {
 	        driver = new ChromeDriver();
-	        driver.get("https://www.sreenidhirajakrishnan.com/practice");
 	        driver.manage().window().maximize();
+	        driver.get("https://www.sreenidhirajakrishnan.com/practice");
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	        pageobj = new Buutontandradiobuttonpage(driver);
 	        Thread.sleep(3000);
