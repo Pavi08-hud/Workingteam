@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-03T19:03:48 IST" name="Suite" finished-at="2026-07-03T19:04:48 IST" duration-ms="60731">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.verifySubmitMessage()[pri:1, instance:Automation.LoginTest@9d5509a]" name="verifySubmitMessage" class="Automation.LoginTest"/>
+        <method signature="LoginTest.verifyResetMessage()[pri:2, instance:Automation.LoginTest@9d5509a]" name="verifyResetMessage" class="Automation.LoginTest"/>
+        <method signature="BuutontandradiobuttonTest.singleactionclick()[pri:4, instance:Automation.BuutontandradiobuttonTest@bccb269]" name="singleactionclick" class="Automation.BuutontandradiobuttonTest"/>
+        <method signature="BuutontandradiobuttonTest.doubleactionclick()[pri:5, instance:Automation.BuutontandradiobuttonTest@bccb269]" name="doubleactionclick" class="Automation.BuutontandradiobuttonTest"/>
+        <method signature="BuutontandradiobuttonTest.rightactionclick()[pri:6, instance:Automation.BuutontandradiobuttonTest@bccb269]" name="rightactionclick" class="Automation.BuutontandradiobuttonTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-07-03T19:03:48 IST" name="Login Test" finished-at="2026-07-03T19:04:32 IST" duration-ms="44128">
+      <class name="Automation.LoginTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Automation.LoginTest@9d5509a]" started-at="2026-07-03T19:03:48 IST" name="launchbrowser" finished-at="2026-07-03T19:03:57 IST" duration-ms="9419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="verifySubmitMessage()[pri:1, instance:Automation.LoginTest@9d5509a]" started-at="2026-07-03T19:03:57 IST" name="verifySubmitMessage" finished-at="2026-07-03T19:04:21 IST" duration-ms="23347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySubmitMessage -->
+        <test-method signature="verifyResetMessage()[pri:2, instance:Automation.LoginTest@9d5509a]" started-at="2026-07-03T19:04:21 IST" name="verifyResetMessage" finished-at="2026-07-03T19:04:31 IST" duration-ms="10357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetMessage -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Automation.LoginTest@9d5509a]" started-at="2026-07-03T19:04:31 IST" name="closebrowser" finished-at="2026-07-03T19:04:32 IST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Automation.LoginTest -->
+    </test> <!-- Login Test -->
+    <test started-at="2026-07-03T19:04:32 IST" name="Button Test" finished-at="2026-07-03T19:04:48 IST" duration-ms="16515">
+      <class name="Automation.BuutontandradiobuttonTest">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:Automation.BuutontandradiobuttonTest@bccb269]" started-at="2026-07-03T19:04:32 IST" name="launchbrowser" finished-at="2026-07-03T19:04:38 IST" duration-ms="5803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="singleactionclick()[pri:4, instance:Automation.BuutontandradiobuttonTest@bccb269]" started-at="2026-07-03T19:04:38 IST" name="singleactionclick" finished-at="2026-07-03T19:04:41 IST" duration-ms="3498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleactionclick -->
+        <test-method signature="doubleactionclick()[pri:5, instance:Automation.BuutontandradiobuttonTest@bccb269]" started-at="2026-07-03T19:04:41 IST" name="doubleactionclick" finished-at="2026-07-03T19:04:45 IST" duration-ms="3431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleactionclick -->
+        <test-method signature="rightactionclick()[pri:6, instance:Automation.BuutontandradiobuttonTest@bccb269]" started-at="2026-07-03T19:04:45 IST" name="rightactionclick" finished-at="2026-07-03T19:04:48 IST" duration-ms="3711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightactionclick -->
+      </class> <!-- Automation.BuutontandradiobuttonTest -->
+    </test> <!-- Button Test -->
+  </suite> <!-- Suite -->
+</testng-results>
